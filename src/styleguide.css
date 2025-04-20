@@ -1,0 +1,39 @@
+:root {
+  --baseline-color-blue-8: rgba(11, 7, 35, 1);
+  --baseline-color-violet-56: rgba(120, 46, 240, 1);
+  --baseline-color-white-solid: rgba(255, 255, 255, 1);
+  --baseline-width-64: 64px;
+  --baseline-width-65-28: 65.27999877929688px;
+  --grey-0: rgba(255, 255, 255, 1);
+  --h1-font-family: "Inter", Helvetica;
+  --h1-font-size: 60px;
+  --h1-font-style: normal;
+  --h1-font-weight: 700;
+  --h1-letter-spacing: 0px;
+  --h1-line-height: 72px;
+  --tryolabs-com-inter-regular-font-family: "Inter", Helvetica;
+  --tryolabs-com-inter-regular-font-size: 16px;
+  --tryolabs-com-inter-regular-font-style: normal;
+  --tryolabs-com-inter-regular-font-weight: 400;
+  --tryolabs-com-inter-regular-letter-spacing: 0px;
+  --tryolabs-com-inter-regular-line-height: 24px;
+  /* Adding variables for ContentSection */
+  --tryolabs-com-inter-regular-upper-font-family: "Inter", Helvetica;
+  --tryolabs-com-inter-regular-upper-font-weight: 400;
+  --tryolabs-com-inter-regular-upper-font-size: 14px;
+  --tryolabs-com-inter-regular-upper-letter-spacing: 2px;
+  --tryolabs-com-inter-regular-upper-line-height: 15.960000038146973px;
+  --tryolabs-com-inter-regular-upper-font-style: normal;
+  --tryolabs-com-semantic-heading-4-font-family: "Inter", Helvetica;
+  --tryolabs-com-semantic-heading-4-font-weight: 500;
+  --tryolabs-com-semantic-heading-4-font-size: 23.96875px;
+  --tryolabs-com-semantic-heading-4-letter-spacing: 0px;
+  --tryolabs-com-semantic-heading-4-line-height: 32px;
+  --tryolabs-com-semantic-heading-4-font-style: normal;
+  --baseline-color-grey-94-10: rgba(232, 249, 245, 0.1);
+  --baseline-item-spacing-0-01: 0.009999999776482582px;
+  --baseline-item-spacing-18: 18px;
+  --baseline-item-spacing-0: 1.1368683772161603e-13px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');

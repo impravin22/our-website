@@ -1,0 +1,55 @@
+.common-button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  min-width: 220px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 40px;
+  position: relative;
+  border-radius: 30px;
+  background: linear-gradient(6deg, rgba(120, 46, 240, 1) 20%, rgba(98, 7, 243, 1) 40%);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.common-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(120, 46, 240, 0.3);
+}
+
+.common-button-text {
+  position: relative;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 29px;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+/* Small button variant */
+.common-button.small {
+  min-width: 180px;
+  padding: 12px 24px;
+}
+
+.common-button.small .common-button-text {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .common-button {
+    min-width: 200px;
+    padding: 14px 30px;
+  }
+  
+  .common-button-text {
+    font-size: 14px;
+  }
+}
